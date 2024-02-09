@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    /* font-family: 'Lemon', serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #0C0E0C;
+    overflow: hidden;
+    height: 100vh;
+    color: #EAEBEA;
+    padding-bottom: 20px;
+}
+
+.title{
+    margin-top: 15px;    
+}
+
+.title h1{
+    font-family: 'Lemon', serif;
+}
+
+.title p{
+    font-family: 'Lemon', serif;
+    color: #D8323C;
+}
+
+.form_details{
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 77px;
+    height: calc(100vh - 100px);
+}
+
+.form_details .img{
+    width: 40%;
+    overflow: hidden;
+    height: 100%;
+}
+
+.form_details .img img{
+    height: 100%;
+}
+
+.form_details p{
+    font-size: 12px;
+    /* padding: 0;
+    margin: 0; */
+}
+
+.form_details a{
+    color: #D8323C;
+    text-decoration: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 10px;
+    height: 100%;
+}
+
+form h5{
+    padding: 0;
+    margin: 0;
+}
+
+form .inputs{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+form .inputs input{
+    outline: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    border: 1px solid #D8323C;
+}
+
+form button{
+    color: #EAEBEA;
+    outline: none;
+    border-radius: 4px;
+    padding: 5px 0;
+    border: 1px solid #D8323C;
+    background-color: #C72C41;
+}

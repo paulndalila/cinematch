@@ -1,0 +1,56 @@
+.body{
+    padding: 0 80px;
+}
+
+.recommendations{
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.recommendations .recommended{
+    width: 32%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.recommendations .recommended img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.recommendations .recommended .details{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 99;
+    color: #EAEBEA;
+    padding: 10px 10px 0 10px;
+    background: linear-gradient(180deg, transparent, #0c0e0cbe, #0C0E0C);
+}
+
+.recommendations .recommended .details .dets p{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.recommendations .recommended .details .dets p b{
+    color: #C72C41;
+}
+
+.recommendations .recommended .details a{
+    font-size: 13px;
+    border-radius: 30px;
+    padding: 5px 20px;
+}

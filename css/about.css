@@ -1,0 +1,10 @@
+.contentpane{
+    margin-top: 20px;    
+    margin-bottom: 20px;
+    color: #0C0E0C;
+    padding: 30px 20px;
+    border-radius: 4px;
+    background-color: #EAEBEA;
+    border: 1px solid #C72C41;
+    line-height: .8cm;
+}

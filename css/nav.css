@@ -1,0 +1,249 @@
+/* black: #0C0E0C
+gray: EAEBEA
+red: D8323C
+pinkish: C72C41
+purple: 2D142C
+dark gray: 515151
+light-purple: 510A32 */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Times, serif;
+    color: #EAEBEA;
+    background-color: #0C0E0C;
+    position: relative;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.header .nav{
+    width: 100%;
+    padding: 0 80px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .nav form{
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #C72C41;
+}
+
+.header .nav form input,.header .nav form button{
+    outline: none;
+    border: none;
+}
+
+.header .nav form input{
+    padding: 5px 10px;
+    width: 80%;
+}
+
+.header .nav form button{
+    width: 20%;
+    transition: .5s;
+    color: #EAEBEA;
+    padding: 5px 20px;
+    background: #C72C41;
+}
+
+.header .nav form button:hover{
+    background: #D8323C;
+}
+
+.header .nav .profile{
+    gap: 10px;
+    display: flex;
+    cursor: pointer;
+    align-items: baseline;
+}
+
+.header .nav .profile p{
+    color: #EAEBEA;
+}
+
+.header .nav .profile .profile-img{
+    height: 50px;
+    /* width: 50px;
+    border-radius: 50%;
+    border: 1px solid #C72C41; */
+}
+
+.header ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 80px;
+    background: #D8323C;
+}
+
+.header ul li a{
+    color: #0C0E0C;
+    display: flex;
+    transition: .5s;
+    align-items: center;
+}
+
+.header ul li a:hover{
+    color: #EAEBEA;
+}
+
+.header ul li a img{
+    height: 30px;
+}
+
+.header ul li a h6{
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.body{
+    padding: 0 80px;
+    min-height: 50vh;
+}
+
+.banner{
+    text-align: center;
+    background: linear-gradient(180deg, transparent, #515151bb, #515151);
+    padding: 20px 10px 5px 10px;
+    margin: 0;
+}
+
+.banner p{
+    font-size: 12px;
+}
+
+
+/* movie and series cards */
+.cards{
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cards .ms-card{
+    width: 22%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 4px;
+    transition: .5s;
+    position: relative;
+}
+
+.cards .ms-card:hover{
+    transform: scale(1.05);
+    border: 1px solid #C72C41;
+}
+
+.cards .ms-card img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cards .ms-card .details{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 99;
+    color: #EAEBEA;
+    padding: 10px 10px 0 10px;
+    background: linear-gradient(180deg, transparent, #0c0e0cd2, #0C0E0C);
+}
+
+.cards .ms-card .details .dets p{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.cards .ms-card .details .dets p b{
+    color: #C72C41;
+}
+
+.cards .ms-card .details a{
+    font-size: 13px;
+    border-radius: 30px;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    border-top: 1px solid #C72C41;
+}
+
+footer .items{
+    width: 100%;
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .items .item{
+    width: 30%;
+}
+
+footer .items .item{
+    font-size: 12px;
+}
+
+footer .copyright{
+    background: #212121;
+    color: #EAEBEA;
+    width: 100%;
+}
+
+footer .copyright p{
+    font-size: 9px;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,18 @@
+.back{
+    margin-top: 20px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.back img{
+    width: 100%;
+}
+
+.details{
+    padding: 20px 0;
+}
+
+.details p b, .details h5{
+    color: #C72C41;
+}
